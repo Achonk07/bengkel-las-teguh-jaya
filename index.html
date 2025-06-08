@@ -8,18 +8,29 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
+  <nav>
+    <ul>
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#galeri">Galeri</a></li>
+      <li><a href="#form">Pesan</a></li>
+      <li><a href="#maps">Lokasi</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <header id="home">
     <img src="images/logo.png" alt="Logo Bengkel Las" class="logo">
     <h1>Bengkel Las Teguh Jaya</h1>
     <p>Jasa las besi & alumunium – Palu</p>
   </header>
 
-  <section class="about">
+  <section id="tentang" class="about">
     <h2>Tentang Kami</h2>
     <p>Kami melayani pembuatan pagar, kanopi, pintu besi, dan berbagai proyek las. Dikerjakan profesional & bergaransi.</p>
   </section>
 
-  <section class="gallery">
+  <section id="galeri" class="gallery">
     <h2>Galeri Proyek</h2>
     <div class="grid">
       <img src="images/galeri1.jpg" alt="Pagar Minimalis">
@@ -28,7 +39,7 @@
     </div>
   </section>
 
-  <section class="form">
+  <section id="form" class="form">
     <h2>Pemesanan</h2>
     <form action="https://wa.me/6282336812007" method="get" target="_blank">
       <input type="text" name="nama" placeholder="Nama Anda" required>
@@ -38,12 +49,12 @@
     </form>
   </section>
 
-  <section class="maps">
+  <section id="maps" class="maps">
     <h2>Lokasi Kami</h2>
     <iframe src="https://maps.google.com/maps?q=palu&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
   </section>
 
-  <section class="testimoni">
+  <section id="kontak" class="testimoni">
     <h2>Testimoni Pelanggan</h2>
     <blockquote>"Pagar rapi, cepat selesai. Terima kasih!" — Budi, Palu</blockquote>
   </section>
