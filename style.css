@@ -68,3 +68,52 @@ nav ul li a {
 nav ul li a:hover {
   background: #555;
 }
+
+.alamat {
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+}
+
+.promo {
+  background: #ffefc5;
+  border: 2px dashed #f39c12;
+  padding: 20px;
+  text-align: center;
+  margin: 20px;
+}
+.btn-promo {
+  background: #f39c12;
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 6px;
+}
+.btn-promo:hover {
+  background: #e67e22;
+}
+
+.promo-anim {
+  background: linear-gradient(135deg, #f44336, #ff9800);
+  color: white;
+  text-align: center;
+  padding: 30px;
+  animation: fadein 1s ease-in-out;
+}
+@keyframes fadein {
+  from {opacity: 0; transform: translateX(-20px);}
+  to {opacity: 1; transform: translateX(0);}
+}
+.btn-promo-big {
+  background: white;
+  color: #d84315;
+  padding: 12px 24px;
+  font-weight: bold;
+  border-radius: 6px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 10px;
+}
+.btn-promo-big:hover {
+  background: #ffd180;
+}
